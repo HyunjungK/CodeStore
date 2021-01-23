@@ -1,0 +1,1322 @@
+fileFormatVersion: 2
+guid: 3253a3880a807fd4eb69a5dbb4ce307e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3019949324556446873
+    second: LevelIcon_0
+  - first:
+      213: 3436742431415610574
+    second: LevelIcon_0
+  - first:
+      213: -2532325285606239477
+    second: LevelIcon_1
+  - first:
+      213: -8363470126874100543
+    second: LevelIcon_2
+  - first:
+      213: -2438261868591641274
+    second: LevelIcon_3
+  - first:
+      213: 6747607441802179417
+    second: LevelIcon_4
+  - first:
+      213: -9102911335442511027
+    second: LevelIcon_5
+  - first:
+      213: -5032621849025574126
+    second: LevelIcon_6
+  - first:
+      213: -7576228738169063400
+    second: LevelIcon_7
+  - first:
+      213: -8688972858594611383
+    second: LevelIcon_8
+  - first:
+      213: 1903701926290756379
+    second: LevelIcon_9
+  - first:
+      213: 5294054285618542803
+    second: LevelIcon_10
+  - first:
+      213: -6670754623994554868
+    second: LevelIcon_11
+  - first:
+      213: 8056491856046496771
+    second: LevelIcon_12
+  - first:
+      213: 1198244968534933994
+    second: LevelIcon_13
+  - first:
+      213: 5607003292476239776
+    second: LevelIcon_14
+  - first:
+      213: 2736854577365374034
+    second: LevelIcon_15
+  - first:
+      213: 117555718338175298
+    second: LevelIcon_16
+  - first:
+      213: -1316772221693986015
+    second: LevelIcon_17
+  - first:
+      213: 3390400368028629777
+    second: LevelIcon_18
+  - first:
+      213: -8446488753970952402
+    second: LevelIcon_19
+  - first:
+      213: -7311652046449994648
+    second: LevelIcon_20
+  - first:
+      213: 731844033114415795
+    second: LevelIcon_21
+  - first:
+      213: -2925561485656848357
+    second: LevelIcon_22
+  - first:
+      213: -88789357519234553
+    second: LevelIcon_23
+  - first:
+      213: 5692442824130499822
+    second: LevelIcon_24
+  - first:
+      213: -4186612485778802094
+    second: LevelIcon_25
+  - first:
+      213: -4160212461418954092
+    second: LevelIcon_26
+  - first:
+      213: -8184261389872845314
+    second: LevelIcon_27
+  - first:
+      213: 2681887981312585823
+    second: LevelIcon_28
+  - first:
+      213: 2123562994591608342
+    second: LevelIcon_29
+  - first:
+      213: -2553341646247199732
+    second: LevelIcon_30
+  - first:
+      213: -6316465188674450569
+    second: LevelIcon_31
+  - first:
+      213: 3415306866174820110
+    second: LevelIcon_32
+  - first:
+      213: 6724737993896297120
+    second: LevelIcon_33
+  - first:
+      213: 5082695786160753328
+    second: LevelIcon_34
+  - first:
+      213: -3032708803683595480
+    second: LevelIcon_35
+  - first:
+      213: 9025081974658635954
+    second: LevelIcon_36
+  - first:
+      213: -2827148677056744451
+    second: LevelIcon_37
+  - first:
+      213: 3973252218522900003
+    second: LevelIcon_38
+  - first:
+      213: 1514098057235099165
+    second: LevelIcon_39
+  - first:
+      213: -4963427554656552280
+    second: LevelIcon_40
+  - first:
+      213: 8288592308482852171
+    second: LevelIcon_41
+  - first:
+      213: -1507157879328559897
+    second: LevelIcon_42
+  - first:
+      213: 6006824238119475361
+    second: LevelIcon_43
+  - first:
+      213: -3438913498393497996
+    second: LevelIcon_44
+  - first:
+      213: 2339173443057755036
+    second: LevelIcon_45
+  - first:
+      213: -3168899537345218138
+    second: LevelIcon_46
+  - first:
+      213: 7880982481207394195
+    second: LevelIcon_47
+  - first:
+      213: 229241066935356279
+    second: LevelIcon_1
+  - first:
+      213: 7432194984773765360
+    second: LevelIcon_2
+  - first:
+      213: 8658993199049092475
+    second: LevelIcon_3
+  - first:
+      213: -5737187468262995049
+    second: LevelIcon_4
+  - first:
+      213: 5285528334926499027
+    second: LevelIcon_5
+  - first:
+      213: 2647790721983337213
+    second: LevelIcon_6
+  - first:
+      213: 7121359110891869084
+    second: LevelIcon_7
+  - first:
+      213: -5994967595664588064
+    second: LevelIcon_8
+  - first:
+      213: -1999173827806452829
+    second: LevelIcon_9
+  - first:
+      213: -6131378755624339605
+    second: LevelIcon_10
+  - first:
+      213: -151686149375589264
+    second: LevelIcon_11
+  - first:
+      213: 2611528124682180649
+    second: LevelIcon_12
+  - first:
+      213: -8710736682496995525
+    second: LevelIcon_13
+  - first:
+      213: -1761134024162794958
+    second: LevelIcon_14
+  - first:
+      213: -2154081506698114773
+    second: LevelIcon_15
+  - first:
+      213: -7179157631609591836
+    second: LevelIcon_16
+  - first:
+      213: 2715455171295736445
+    second: LevelIcon_17
+  - first:
+      213: -8070559685332643508
+    second: LevelIcon_18
+  - first:
+      213: 4588630349099671433
+    second: LevelIcon_19
+  - first:
+      213: -3231193003287750851
+    second: LevelIcon_20
+  - first:
+      213: -5978706420451447089
+    second: LevelIcon_21
+  - first:
+      213: 6991619490205525351
+    second: LevelIcon_22
+  - first:
+      213: 81650657354594172
+    second: LevelIcon_23
+  - first:
+      213: -5145456507599367056
+    second: LevelIcon_24
+  - first:
+      213: -7602367574196164728
+    second: LevelIcon_25
+  - first:
+      213: -1775727295367859665
+    second: LevelIcon_26
+  - first:
+      213: 8128291835306604608
+    second: LevelIcon_27
+  - first:
+      213: -5636961405473594519
+    second: LevelIcon_28
+  - first:
+      213: -6046304586294516453
+    second: LevelIcon_29
+  - first:
+      213: -6536729780166543905
+    second: LevelIcon_30
+  - first:
+      213: -9183480902746569392
+    second: LevelIcon_31
+  - first:
+      213: -3335359620565013896
+    second: LevelIcon_32
+  - first:
+      213: 6467457139550127275
+    second: LevelIcon_33
+  - first:
+      213: -6911248938699237887
+    second: LevelIcon_34
+  - first:
+      213: -5231065955253871067
+    second: LevelIcon_35
+  - first:
+      213: -5357946409472902030
+    second: LevelIcon_36
+  - first:
+      213: 9163368001220651541
+    second: LevelIcon_37
+  - first:
+      213: -6781824411534554508
+    second: LevelIcon_38
+  - first:
+      213: -3773239044149584906
+    second: LevelIcon_39
+  - first:
+      213: 188091495605060894
+    second: LevelIcon_40
+  - first:
+      213: 6700327988232854933
+    second: LevelIcon_41
+  - first:
+      213: -7196921282168855290
+    second: LevelIcon_42
+  - first:
+      213: -4216228181279118617
+    second: LevelIcon_43
+  - first:
+      213: 7563038285340866862
+    second: LevelIcon_44
+  - first:
+      213: 1895681197253423607
+    second: LevelIcon_45
+  - first:
+      213: 8648528309341381724
+    second: LevelIcon_46
+  - first:
+      213: 8435729269628404587
+    second: LevelIcon_47
+  - first:
+      213: 7760022599247585628
+    second: LevelIcon_48
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LevelIcon_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 225
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecc2a016803c1bf20800000000000000
+      internalID: 3436742431415610574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelIcon_1
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 225
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77b0d9a298d6e2300800000000000000
+      internalID: 229241066935356279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelIcon_2
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 225
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f841e016f5742760800000000000000
+      internalID: 7432194984773765360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelIcon_3
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 225
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7d28ddef6cea2870800000000000000
+      internalID: 8658993199049092475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelIcon_4
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 225
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b8c50056a6160b0800000000000000
+      internalID: -5737187468262995049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelIcon_5
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 225
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc4e854408f95940800000000000000
+      internalID: 5285528334926499027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelIcon_6
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 225
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df2546f02a7deb420800000000000000
+      internalID: 2647790721983337213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelIcon_7
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 225
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9393ba716624d260800000000000000
+      internalID: 7121359110891869084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelIcon_8
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 225
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e24f640cb89dcca0800000000000000
+      internalID: -5994967595664588064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelIcon_9
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 225
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3a655eef18144e0800000000000000
+      internalID: -1999173827806452829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelIcon_10
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 225
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6772a7d187f8eaa0800000000000000
+      internalID: -6131378755624339605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelIcon_11
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 225
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0740f15304a15edf0800000000000000
+      internalID: -151686149375589264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelIcon_12
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 160
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9289f903ef20e3420800000000000000
+      internalID: 2611528124682180649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelIcon_13
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 160
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f4dc3832f3d1780800000000000000
+      internalID: -8710736682496995525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelIcon_14
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 160
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2322ce79fe13f87e0800000000000000
+      internalID: -1761134024162794958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelIcon_15
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 160
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b294500584a2b12e0800000000000000
+      internalID: -2154081506698114773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelIcon_16
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 160
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e7206dbb228e5c90800000000000000
+      internalID: -7179157631609591836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelIcon_17
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 160
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d727498571c3fa520800000000000000
+      internalID: 2715455171295736445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelIcon_18
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 160
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c41d821d9bc9fff80800000000000000
+      internalID: -8070559685332643508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelIcon_19
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 160
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f99abadf61eaf30800000000000000
+      internalID: 4588630349099671433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelIcon_20
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 160
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d375e46451f7823d0800000000000000
+      internalID: -3231193003287750851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelIcon_21
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 160
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcee4a8ef2e570da0800000000000000
+      internalID: -5978706420451447089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelIcon_22
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 160
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765e56612e8370160800000000000000
+      internalID: 6991619490205525351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelIcon_23
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 160
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c773c4b17d4122100800000000000000
+      internalID: 81650657354594172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelIcon_24
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 94
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0745151719aa798b0800000000000000
+      internalID: -5145456507599367056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelIcon_25
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 94
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887e61868f6fe7690800000000000000
+      internalID: -7602367574196164728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelIcon_26
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 94
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2232adde695b57e0800000000000000
+      internalID: -1775727295367859665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelIcon_27
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 94
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0487822db5e7dc070800000000000000
+      internalID: 8128291835306604608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelIcon_28
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 94
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 963e826b77d75c1b0800000000000000
+      internalID: -5636961405473594519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelIcon_29
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 94
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b15a9127306371ca0800000000000000
+      internalID: -6046304586294516453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelIcon_30
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 265
+        width: 35
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd5b474e5eed845a0800000000000000
+      internalID: -6536729780166543905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelIcon_31
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 94
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055053e66c8bd8080800000000000000
+      internalID: -9183480902746569392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelIcon_32
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 94
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a6a0ab81c66b1d0800000000000000
+      internalID: -3335359620565013896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelIcon_33
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 94
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba403fa900601c950800000000000000
+      internalID: 6467457139550127275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelIcon_34
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 94
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 106598625bf4610a0800000000000000
+      internalID: -6911248938699237887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelIcon_35
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 94
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e1474aa358767b0800000000000000
+      internalID: -5231065955253871067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelIcon_36
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 28
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27cb9c1d020c4a5b0800000000000000
+      internalID: -5357946409472902030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelIcon_37
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 28
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a20f2c5a2da2f70800000000000000
+      internalID: 9163368001220651541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelIcon_38
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 28
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a096d11ae12e1a0800000000000000
+      internalID: -6781824411534554508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelIcon_39
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 25
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb54d0b413c2abc0800000000000000
+      internalID: -3773239044149584906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelIcon_40
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 25
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e15cfccf73c3c9200800000000000000
+      internalID: 188091495605060894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelIcon_41
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 6
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d1a313ec85cfc50800000000000000
+      internalID: 6700327988232854933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelIcon_42
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 94
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60560eb89366f1c90800000000000000
+      internalID: -7196921282168855290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
