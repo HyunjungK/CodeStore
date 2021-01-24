@@ -74,7 +74,6 @@ public class cButtonController : MonoBehaviour
 
     public void RessetBtn()
     {
-        //  data._Reset();
         SceneManager.LoadScene(0);
 
     }

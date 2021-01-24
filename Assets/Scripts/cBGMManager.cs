@@ -12,11 +12,11 @@ public class cBGMManager : MonoBehaviour
     void Start()
     {
         source = GetComponent<AudioSource>();
+        source.volume = 1f;
     }
 
     public void Play(int _playMusicTrack)
     {
-        source.volume = 1f;
         source.clip = clips[_playMusicTrack];
         source.Play();
     }
@@ -24,49 +24,5 @@ public class cBGMManager : MonoBehaviour
     public void SetVolumn(float _volumn)
     {
         source.volume = _volumn;
-    }
-
-    public void Pause()
-    {
-        source.Pause();
-    }
-
-    public void Unpause()
-    {
-        source.UnPause();
-    }
-
-    public void Stop()
-    {
-        source.Stop();
-    }
-
-    public void FadeOutMusic()
-    {
-        StopAllCoroutines();
-        StartCoroutine(FadeOutMusicCoroutine());
-    }
-
-    IEnumerator FadeOutMusicCoroutine()
-    {
-        for (float i = 1.0f; i >= 0f; i -= 0.01f)
-        {
-            source.volume = i;
-            yield return waitTime;
-        }
-    }
-
-    public void FadeInMusic()
-    {
-        StopAllCoroutines();
-        StartCoroutine(FadeInMusicCoroutine());
-    }
-    IEnumerator FadeInMusicCoroutine()
-    {
-        for (float i = 0f; i <= 1f; i += 0.01f)
-        {
-            source.volume = i;
-            yield return waitTime;
-        }
     }
 }

@@ -182,6 +182,7 @@ public class cGameManager : MonoBehaviour
     public void GetItemClick(int _btnIdx)
     {
         theAudio.Play(buyBtnSound);
+
         switch (_btnIdx)
         {
             case 0:
@@ -199,11 +200,6 @@ public class cGameManager : MonoBehaviour
                 {
                     data.stateList[0].curBackIdx = _btnIdx;
                 }
-                else if(curType=="Sound"&& data.SoundList[_btnIdx]!=null)
-                {
-                    data.stateList[0].curSoundIdx = _btnIdx;
-                    bgm.Play(_btnIdx);
-                }
                 break;
             case 1:
                 if (curType == "Pokemon" && data.PokemonList[_btnIdx] != null)
@@ -220,11 +216,6 @@ public class cGameManager : MonoBehaviour
                 {
                     data.stateList[0].curBackIdx = _btnIdx;
                 }
-                else if (curType == "Sound" && data.SoundList[_btnIdx] != null)
-                {
-                    data.stateList[0].curSoundIdx = _btnIdx;
-                    bgm.Play(_btnIdx);
-                }
                 break;
             case 2:
                 if(curType=="Pokemon" && data.PokemonList[_btnIdx]!=null)
@@ -240,11 +231,6 @@ public class cGameManager : MonoBehaviour
                 else if(curType=="Back" && data.BackList[_btnIdx]!=null)
                 {
                     data.stateList[0].curBackIdx = _btnIdx;
-                }
-                else if(curType=="Sound"&& data.SoundList[_btnIdx]!=null)
-                {
-                    data.stateList[0].curSoundIdx = _btnIdx;
-                    bgm.Play(_btnIdx);
                 }   
                 break;
             case 3:
@@ -262,11 +248,6 @@ public class cGameManager : MonoBehaviour
                 {
                     data.stateList[0].curBackIdx = _btnIdx;
                 }
-                else if(curType=="Sound"&& data.SoundList[_btnIdx]!=null)
-                {
-                    data.stateList[0].curSoundIdx = _btnIdx;
-                    bgm.Play(_btnIdx);
-                }
                 break;
             case 4:
                 if (curType == "Pokemon" && data.PokemonList[_btnIdx] != null)
@@ -282,11 +263,6 @@ public class cGameManager : MonoBehaviour
                 else if (curType == "Back" && data.BackList[_btnIdx] != null)
                 {
                     data.stateList[0].curBackIdx = _btnIdx;
-                }
-                else if (curType == "Sound" && data.SoundList[_btnIdx] != null)
-                {
-                    data.stateList[0].curSoundIdx = _btnIdx;
-                    bgm.Play(_btnIdx);
                 }
                 break;
             case 5:
@@ -304,11 +280,6 @@ public class cGameManager : MonoBehaviour
                 {
                     data.stateList[0].curBackIdx = _btnIdx;
                 }
-                else if (curType == "Sound" && data.SoundList[_btnIdx] != null)
-                {
-                    data.stateList[0].curSoundIdx = _btnIdx;
-                    bgm.Play(_btnIdx);
-                }
                 break;
             case 6:
                 if (curType == "Pokemon" && data.PokemonList[_btnIdx] != null)
@@ -324,11 +295,6 @@ public class cGameManager : MonoBehaviour
                 else if (curType == "Back" && data.BackList[_btnIdx] != null)
                 {
                     data.stateList[0].curBackIdx = _btnIdx;
-                }
-                else if (curType == "Sound" && data.SoundList[_btnIdx] != null)
-                {
-                    data.stateList[0].curSoundIdx = _btnIdx;
-                    bgm.Play(_btnIdx);
                 }
                 break;
             case 7:
@@ -346,11 +312,6 @@ public class cGameManager : MonoBehaviour
                 {
                     data.stateList[0].curBackIdx = _btnIdx;
                 }
-                else if (curType == "Sound" && data.SoundList[_btnIdx] != null)
-                {
-                    data.stateList[0].curSoundIdx = _btnIdx;
-                    bgm.Play(_btnIdx);
-                }
                 break;
             case 8:
                 if (curType == "Pokemon" && data.PokemonList[_btnIdx] != null)
@@ -366,11 +327,6 @@ public class cGameManager : MonoBehaviour
                 else if (curType == "Back" && data.BackList[_btnIdx] != null)
                 {
                     data.stateList[0].curBackIdx = _btnIdx;
-                }
-                else if (curType == "Sound" && data.SoundList[_btnIdx] != null)
-                {
-                    data.stateList[0].curSoundIdx = _btnIdx;
-                    bgm.Play(_btnIdx);
                 }
                 break;
             case 9:
@@ -388,11 +344,6 @@ public class cGameManager : MonoBehaviour
                 {
                     data.stateList[0].curBackIdx = _btnIdx;
                 }
-                else if (curType == "Sound" && data.SoundList[_btnIdx] != null)
-                {
-                    data.stateList[0].curSoundIdx = _btnIdx;
-                    bgm.Play(_btnIdx);
-                }
                 break;
             case 10:
                 if (curType == "Pokemon" && data.PokemonList[_btnIdx] != null)
@@ -408,11 +359,6 @@ public class cGameManager : MonoBehaviour
                 else if (curType == "Back" && data.BackList[_btnIdx] != null)
                 {
                     data.stateList[0].curBackIdx = _btnIdx;
-                }
-                else if (curType == "Sound" && data.SoundList[_btnIdx] != null)
-                {
-                    data.stateList[0].curSoundIdx = _btnIdx;
-                    bgm.Play(_btnIdx);
                 }
                 break;
             case 11:
@@ -430,11 +376,6 @@ public class cGameManager : MonoBehaviour
                 {
                     data.stateList[0].curBackIdx = _btnIdx;
                 }
-                else if (curType == "Sound" && data.SoundList[_btnIdx] != null)
-                {
-                    data.stateList[0].curSoundIdx = _btnIdx;
-                    bgm.Play(_btnIdx);
-                }
                 break;
             case 12:
                 if (curType == "Pokemon" && data.PokemonList[_btnIdx] != null)
@@ -450,11 +391,6 @@ public class cGameManager : MonoBehaviour
                 else if (curType == "Back" && data.BackList[_btnIdx] != null)
                 {
                     data.stateList[0].curBackIdx = _btnIdx;
-                }
-                else if (curType == "Sound" && data.SoundList[_btnIdx] != null)
-                {
-                    data.stateList[0].curSoundIdx = _btnIdx;
-                    bgm.Play(_btnIdx);
                 }
                 break;
             case 13:
@@ -472,11 +408,6 @@ public class cGameManager : MonoBehaviour
                 {
                     data.stateList[0].curBackIdx = _btnIdx;
                 }
-                else if (curType == "Sound" && data.SoundList[_btnIdx] != null)
-                {
-                    data.stateList[0].curSoundIdx = _btnIdx;
-                    bgm.Play(_btnIdx);
-                }
                 break;
             case 14:
                 if (curType == "Pokemon" && data.PokemonList[_btnIdx] != null)
@@ -492,11 +423,6 @@ public class cGameManager : MonoBehaviour
                 else if (curType == "Back" && data.BackList[_btnIdx] != null)
                 {
                     data.stateList[0].curBackIdx = _btnIdx;
-                }
-                else if (curType == "Sound" && data.SoundList[_btnIdx] != null)
-                {
-                    data.stateList[0].curSoundIdx = _btnIdx;
-                    bgm.Play(_btnIdx);
                 }
                 break;
             case 15:
@@ -514,11 +440,6 @@ public class cGameManager : MonoBehaviour
                 {
                     data.stateList[0].curBackIdx = _btnIdx;
                 }
-                else if (curType == "Sound" && data.SoundList[_btnIdx] != null)
-                {
-                    data.stateList[0].curSoundIdx = _btnIdx;
-                    bgm.Play(_btnIdx);
-                }
                 break;
             case 16:
                 if (curType == "Pokemon" && data.PokemonList[_btnIdx] != null)
@@ -534,11 +455,6 @@ public class cGameManager : MonoBehaviour
                 else if (curType == "Back" && data.BackList[_btnIdx] != null)
                 {
                     data.stateList[0].curBackIdx = _btnIdx;
-                }
-                else if (curType == "Sound" && data.SoundList[_btnIdx] != null)
-                {
-                    data.stateList[0].curSoundIdx = _btnIdx;
-                    bgm.Play(_btnIdx);
                 }
                 break;
             case 17:
@@ -556,11 +472,6 @@ public class cGameManager : MonoBehaviour
                 {
                     data.stateList[0].curBackIdx = _btnIdx;
                 }
-                else if (curType == "Sound" && data.SoundList[_btnIdx] != null)
-                {
-                    data.stateList[0].curSoundIdx = _btnIdx;
-                    bgm.Play(_btnIdx);
-                }
                 break;
             case 18:
                 if (curType == "Pokemon" && data.PokemonList[_btnIdx] != null)
@@ -576,11 +487,6 @@ public class cGameManager : MonoBehaviour
                 else if (curType == "Back" && data.BackList[_btnIdx] != null)
                 {
                     data.stateList[0].curBackIdx = _btnIdx;
-                }
-                else if (curType == "Sound" && data.SoundList[_btnIdx] != null)
-                {
-                    data.stateList[0].curSoundIdx = _btnIdx;
-                    bgm.Play(_btnIdx);
                 }
                 break;
             case 19:
@@ -598,11 +504,6 @@ public class cGameManager : MonoBehaviour
                 {
                     data.stateList[0].curBackIdx = _btnIdx;
                 }
-                else if (curType == "Sound" && data.SoundList[_btnIdx] != null)
-                {
-                    data.stateList[0].curSoundIdx = _btnIdx;
-                    bgm.Play(_btnIdx);
-                }
                 break;
             case 20:
                 if (curType == "Pokemon" && data.PokemonList[_btnIdx] != null)
@@ -618,11 +519,6 @@ public class cGameManager : MonoBehaviour
                 else if (curType == "Back" && data.BackList[_btnIdx] != null)
                 {
                     data.stateList[0].curBackIdx = _btnIdx;
-                }
-                else if (curType == "Sound" && data.SoundList[_btnIdx] != null)
-                {
-                    data.stateList[0].curSoundIdx = _btnIdx;
-                    bgm.Play(_btnIdx);
                 }
                 break;
             case 21:
@@ -640,11 +536,6 @@ public class cGameManager : MonoBehaviour
                 {
                     data.stateList[0].curBackIdx = _btnIdx;
                 }
-                else if (curType == "Sound" && data.SoundList[_btnIdx] != null)
-                {
-                    data.stateList[0].curSoundIdx = _btnIdx;
-                    bgm.Play(_btnIdx);
-                }
                 break;
             case 22:
                 if (curType == "Pokemon" && data.PokemonList[_btnIdx] != null)
@@ -660,11 +551,6 @@ public class cGameManager : MonoBehaviour
                 else if (curType == "Back" && data.BackList[_btnIdx] != null)
                 {
                     data.stateList[0].curBackIdx = _btnIdx;
-                }
-                else if (curType == "Sound" && data.SoundList[_btnIdx] != null)
-                {
-                    data.stateList[0].curSoundIdx = _btnIdx;
-                    bgm.Play(_btnIdx);
                 }
                 break;
             case 23:
@@ -682,11 +568,6 @@ public class cGameManager : MonoBehaviour
                 {
                     data.stateList[0].curBackIdx = _btnIdx;
                 }
-                else if (curType == "Sound" && data.SoundList[_btnIdx] != null)
-                {
-                    data.stateList[0].curSoundIdx = _btnIdx;
-                    bgm.Play(_btnIdx);
-                }
                 break;
             case 24:
                 if (curType == "Pokemon" && data.PokemonList[_btnIdx] != null)
@@ -702,11 +583,6 @@ public class cGameManager : MonoBehaviour
                 else if (curType == "Back" && data.BackList[_btnIdx] != null)
                 {
                     data.stateList[0].curBackIdx = _btnIdx;
-                }
-                else if (curType == "Sound" && data.SoundList[_btnIdx] != null)
-                {
-                    data.stateList[0].curSoundIdx = _btnIdx;
-                    bgm.Play(_btnIdx);
                 }
                 break;
             case 25:
@@ -724,11 +600,6 @@ public class cGameManager : MonoBehaviour
                 {
                     data.stateList[0].curBackIdx = _btnIdx;
                 }
-                else if (curType == "Sound" && data.SoundList[_btnIdx] != null)
-                {
-                    data.stateList[0].curSoundIdx = _btnIdx;
-                    bgm.Play(_btnIdx);
-                }
                 break;
             case 26:
                 if (curType == "Pokemon" && data.PokemonList[_btnIdx] != null)
@@ -744,11 +615,6 @@ public class cGameManager : MonoBehaviour
                 else if (curType == "Back" && data.BackList[_btnIdx] != null)
                 {
                     data.stateList[0].curBackIdx = _btnIdx;
-                }
-                else if (curType == "Sound" && data.SoundList[_btnIdx] != null)
-                {
-                    data.stateList[0].curSoundIdx = _btnIdx;
-                    bgm.Play(_btnIdx);
                 }
                 break;
             case 27:
@@ -766,11 +632,6 @@ public class cGameManager : MonoBehaviour
                 {
                     data.stateList[0].curBackIdx = _btnIdx;
                 }
-                else if (curType == "Sound" && data.SoundList[_btnIdx] != null)
-                {
-                    data.stateList[0].curSoundIdx = _btnIdx;
-                    bgm.Play(_btnIdx);
-                }
                 break;
             case 28:
                 if (curType == "Pokemon" && data.PokemonList[_btnIdx] != null)
@@ -786,11 +647,6 @@ public class cGameManager : MonoBehaviour
                 else if (curType == "Back" && data.BackList[_btnIdx] != null)
                 {
                     data.stateList[0].curBackIdx = _btnIdx;
-                }
-                else if (curType == "Sound" && data.SoundList[_btnIdx] != null)
-                {
-                    data.stateList[0].curSoundIdx = _btnIdx;
-                    bgm.Play(_btnIdx);
                 }
                 break;
             case 29:
@@ -808,24 +664,213 @@ public class cGameManager : MonoBehaviour
                 {
                     data.stateList[0].curBackIdx = _btnIdx;
                 }
-                else if (curType == "Sound" && data.SoundList[_btnIdx] != null)
+                break;
+
+        }
+
+        for (int i = 0; i < SlotBack.Length; i++)
+        {
+            data.BackList[i].isActive = false;
+            if (i == data.stateList[0].curBackIdx)
+                data.BackList[i].isActive = true;
+        }
+
+        data.Save();
+    }
+
+    public void GetSoundClick(int _btnIdx)
+    {
+        theAudio.Play(buyBtnSound);
+
+        switch (_btnIdx)
+        {
+            case 0:
+                if (curType == "Sound" && data.SoundList[_btnIdx] != null)
                 {
                     data.stateList[0].curSoundIdx = _btnIdx;
-                    bgm.Play(_btnIdx);
+                }
+                break;
+            case 1:
+                if (curType == "Sound" && data.SoundList[_btnIdx] != null)
+                {
+                    data.stateList[0].curSoundIdx = _btnIdx;
+                }
+                break;
+            case 2:
+                if (curType == "Sound" && data.SoundList[_btnIdx] != null)
+                {
+                    data.stateList[0].curSoundIdx = _btnIdx;
+                }
+                break;
+            case 3:
+                if (curType == "Sound" && data.SoundList[_btnIdx] != null)
+                {
+                    data.stateList[0].curSoundIdx = _btnIdx;
+                }
+                break;
+            case 4:
+                if (curType == "Sound" && data.SoundList[_btnIdx] != null)
+                {
+                    data.stateList[0].curSoundIdx = _btnIdx;
+                }
+                break;
+            case 5:
+                if (curType == "Sound" && data.SoundList[_btnIdx] != null)
+                {
+                    data.stateList[0].curSoundIdx = _btnIdx;
+                }
+                break;
+            case 6:
+                if (curType == "Sound" && data.SoundList[_btnIdx] != null)
+                {
+                    data.stateList[0].curSoundIdx = _btnIdx;
+                }
+                break;
+            case 7:
+                if (curType == "Sound" && data.SoundList[_btnIdx] != null)
+                {
+                    data.stateList[0].curSoundIdx = _btnIdx;
+                }
+                break;
+            case 8:
+                if (curType == "Sound" && data.SoundList[_btnIdx] != null)
+                {
+                    data.stateList[0].curSoundIdx = _btnIdx;
+                }
+                break;
+            case 9:
+                if (curType == "Sound" && data.SoundList[_btnIdx] != null)
+                {
+                    data.stateList[0].curSoundIdx = _btnIdx;
+                }
+                break;
+            case 10:
+                if (curType == "Sound" && data.SoundList[_btnIdx] != null)
+                {
+                    data.stateList[0].curSoundIdx = _btnIdx;
+                }
+                break;
+            case 11:
+                if (curType == "Sound" && data.SoundList[_btnIdx] != null)
+                {
+                    data.stateList[0].curSoundIdx = _btnIdx;
+                }
+                break;
+            case 12:
+                if (curType == "Sound" && data.SoundList[_btnIdx] != null)
+                {
+                    data.stateList[0].curSoundIdx = _btnIdx;
+                }
+                break;
+            case 13:
+                if (curType == "Sound" && data.SoundList[_btnIdx] != null)
+                {
+                    data.stateList[0].curSoundIdx = _btnIdx;
+                }
+                break;
+            case 14:
+                if (curType == "Sound" && data.SoundList[_btnIdx] != null)
+                {
+                    data.stateList[0].curSoundIdx = _btnIdx;
+                }
+                break;
+            case 15:
+                if (curType == "Sound" && data.SoundList[_btnIdx] != null)
+                {
+                    data.stateList[0].curSoundIdx = _btnIdx;
+                }
+                break;
+            case 16:
+                if (curType == "Sound" && data.SoundList[_btnIdx] != null)
+                {
+                    data.stateList[0].curSoundIdx = _btnIdx;
+                }
+                break;
+            case 17:
+                if (curType == "Sound" && data.SoundList[_btnIdx] != null)
+                {
+                    data.stateList[0].curSoundIdx = _btnIdx;
+                }
+                break;
+            case 18:
+                if (curType == "Sound" && data.SoundList[_btnIdx] != null)
+                {
+                    data.stateList[0].curSoundIdx = _btnIdx;
+                }
+                break;
+            case 19:
+                if (curType == "Sound" && data.SoundList[_btnIdx] != null)
+                {
+                    data.stateList[0].curSoundIdx = _btnIdx;
+                }
+                break;
+            case 20:
+                if (curType == "Sound" && data.SoundList[_btnIdx] != null)
+                {
+                    data.stateList[0].curSoundIdx = _btnIdx;
+                }
+                break;
+            case 21:
+                if (curType == "Sound" && data.SoundList[_btnIdx] != null)
+                {
+                    data.stateList[0].curSoundIdx = _btnIdx;
+                }
+                break;
+            case 22:
+                if (curType == "Sound" && data.SoundList[_btnIdx] != null)
+                {
+                    data.stateList[0].curSoundIdx = _btnIdx;
+                }
+                break;
+            case 23:
+                if (curType == "Sound" && data.SoundList[_btnIdx] != null)
+                {
+                    data.stateList[0].curSoundIdx = _btnIdx;
+                }
+                break;
+            case 24:
+                if (curType == "Sound" && data.SoundList[_btnIdx] != null)
+                {
+                    data.stateList[0].curSoundIdx = _btnIdx;
+                }
+                break;
+            case 25:
+                if (curType == "Sound" && data.SoundList[_btnIdx] != null)
+                {
+                    data.stateList[0].curSoundIdx = _btnIdx;
+                }
+                break;
+            case 26:
+                if (curType == "Sound" && data.SoundList[_btnIdx] != null)
+                {
+                    data.stateList[0].curSoundIdx = _btnIdx;
+                }
+                break;
+            case 27:
+                if (curType == "Sound" && data.SoundList[_btnIdx] != null)
+                {
+                    data.stateList[0].curSoundIdx = _btnIdx;
+                }
+                break;
+            case 28:
+                if (curType == "Sound" && data.SoundList[_btnIdx] != null)
+                {
+                    data.stateList[0].curSoundIdx = _btnIdx;
+                }
+                break;
+            case 29:
+                if (curType == "Sound" && data.SoundList[_btnIdx] != null)
+                {
+                    data.stateList[0].curSoundIdx = _btnIdx;
                 }
                 break;
 
         }
-        for (int i = 0; i < SlotBack.Length; i++)
-        {
-            data.BackList[i].isActive = false;
-            if (i == _btnIdx)
-                data.BackList[i].isActive = true;
-        }
+        bgm.Play(data.stateList[0].curSoundIdx);
         for (int i = 0; i < SlotSound.Length; i++)
         {
             data.SoundList[i].isActive = false;
-            if (i == _btnIdx)
+            if (i == data.stateList[0].curSoundIdx)
                 data.SoundList[i].isActive = true;
         }
         data.Save();
