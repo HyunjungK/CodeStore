@@ -20,4 +20,3 @@ Stored Code
   
   # 유튜브 
   <iframe width="640" height="360" src="https://youtu.be/D30rSIzjceY" frameborder="0" gesture="media" allowfullscreen=""></iframe>
-  https://youtu.be/D30rSIzjceY
