@@ -16,4 +16,4 @@ Stored Code
 
 
 # Title 화면
-<image.src="https://user-images.githubusercontent.com/71911964/105621417-7ea0f280-5e4a-11eb-8dc7-d67c31c77f9c.PNG">
+<image src="https://user-images.githubusercontent.com/71911964/105621417-7ea0f280-5e4a-11eb-8dc7-d67c31c77f9c.PNG">
