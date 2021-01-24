@@ -1,29 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Newtonsoft.Json;
-using System.IO;
 using UnityEngine.UI;
-using System;
 
-[System.Serializable]
-public class State
-{
-    public int money, level;
-    public State(int _money, int _level)
-    {
-        money = _money;
-        level = _level;
-    }
-}
 public class cPlayerClicker : MonoBehaviour
 {
-    BoxCollider2D boxCollider;
+    private cDBManager data;
 
-    public List<State> stateList;
-    public int autoMoney; //자동으로 증가하는 재화
-    public int plusMoney; //레벨이 증가할 수록 탭 시 더해지는 재화 증가
-    public int count; //탭 클릭 수
+    BoxCollider2D boxCollider;
 
     public GameObject pftext; //플로팅 텍스트
     GameObject tabtext;
@@ -34,22 +18,13 @@ public class cPlayerClicker : MonoBehaviour
 
     private void Awake()
     {
+        data = FindObjectOfType<cDBManager>();
         theAudio = FindObjectOfType<cAudioManager>();
-        if (!File.Exists(Application.persistentDataPath + "/Resources/States.json"))
-        {
-            stateList.Add(new State(1000, 1));
-
-            playerSave();
-        }
-        playerLoad();
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        autoMoney = 1;
-        count = 0;
-        plusMoney = 50;
         boxCollider = GetComponent<BoxCollider2D>();
         StartCoroutine("AutoMoney");
         anim = GetComponent<Animator>();
@@ -60,11 +35,11 @@ public class cPlayerClicker : MonoBehaviour
     {
         //재화 표시
         Text moneyText = GameObject.Find("MoneyText").GetComponentInChildren<Text>();
-        moneyText.text = string.Format("{0:n0}", stateList[0].money);
+        moneyText.text = string.Format("{0:n0}", data.stateList[0].money);
 
         //레벨 표시
         Text levelText = GameObject.Find("LevelText").GetComponentInChildren<Text>();
-        levelText.text = stateList[0].level.ToString();
+        levelText.text = data.stateList[0].level.ToString();
 
         Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         RaycastHit2D rayHit = Physics2D.Raycast(mousePos, Vector2.zero);
@@ -76,33 +51,20 @@ public class cPlayerClicker : MonoBehaviour
                 theAudio.Play(tabSound);
                 tabtext = Instantiate(pftext);
                 tabtext.transform.position = mousePos;
-                tabtext.GetComponent<cTabText>().tab = plusMoney;
-                stateList[0].money += plusMoney; //플레이어 클릭 시 재화 증가
-                count += 1;
-                anim.SetTrigger("TabClick");
-                switch(count)
+                tabtext.GetComponent<cTabText>().tab = data.stateList[0].plusMoney;
+                data.stateList[0].money += data.stateList[0].plusMoney; //플레이어 클릭 시 재화 증가
+                data.stateList[0].count += 1;
+                if(data.stateList[0].count==100)
                 {
-                    case 50:
-                        stateList[0].level += 1;
-                        plusMoney = 100;
-                        autoMoney = 3;
-                        tabtext.GetComponent<cTabText>().tab = plusMoney;
-                        break;
-                    case 100:
-                        stateList[0].level += 1;
-                        plusMoney = 200;
-                        autoMoney = 5;
-                        tabtext.GetComponent<cTabText>().tab = plusMoney;
-                        break;
-                    case 150:
-                        stateList[0].level += 1;
-                        plusMoney = 300;
-                        autoMoney = 7;
-                        tabtext.GetComponent<cTabText>().tab = plusMoney;
-                        break;
+                    data.stateList[0].level += 1;
+                    data.stateList[0].plusMoney += 50;
+                    data.stateList[0].autoMoney += 2;
+                    tabtext.GetComponent<cTabText>().tab = data.stateList[0].plusMoney;
+                    data.stateList[0].count = 0;
                 }
+                anim.SetTrigger("TabClick");
                 
-                playerSave();
+                data.Save();
             }
         }
     }
@@ -110,29 +72,7 @@ public class cPlayerClicker : MonoBehaviour
     IEnumerator AutoMoney()
     {
         yield return new WaitForSeconds(3f);
-        stateList[0].money += autoMoney;
+        data.stateList[0].money += data.stateList[0].autoMoney;
         StartCoroutine("AutoMoney");
-    }
-
-    public void playerSave()
-    {
-        string jdata = JsonConvert.SerializeObject(stateList);
-
-        File.WriteAllText(Application.persistentDataPath + "/Resources/States.json", jdata);
-    }
-
-    public void playerLoad()
-    {
-        string jdata = File.ReadAllText(Application.persistentDataPath + "/Resources/States.json");
-
-        stateList = JsonConvert.DeserializeObject<List<State>>(jdata);
-    }
-
-    public void dataReset()
-    {
-        stateList = new List<State>();
-        stateList.Add(new State(1000, 1));
-        playerSave();
-    }
-  
+    }  
 }

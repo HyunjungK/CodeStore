@@ -12664,10 +12664,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8fdae5d6b70e5d41af8edec50b30b7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PokemonList: []
-  ItemList: []
-  BackList: []
-  SoundList: []
   pokemonScroll: {fileID: 1553218968}
   itemScroll: {fileID: 1562720257}
   BackScroll: {fileID: 1794010657}
@@ -13186,7 +13182,6 @@ MonoBehaviour:
   - {fileID: 139968546}
   - {fileID: 1871436298}
   buyBtnSound: buyBtnSound
-  player: {fileID: 1671936656}
   backChange: {fileID: 1839910389}
   bgm: {fileID: 353713202}
 --- !u!4 &407298019
@@ -46636,7 +46631,7 @@ GameObject:
   - component: {fileID: 1475514895}
   - component: {fileID: 1475514894}
   m_Layer: 5
-  m_Name: Button
+  m_Name: RessetBtn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46705,19 +46700,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 407298018}
-        m_MethodName: _Reset
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1671936656}
-        m_MethodName: dataReset
+      - m_Target: {fileID: 1408279890}
+        m_MethodName: RessetBtn
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -53634,10 +53618,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3abc4493401f16448a91d6497a7ee1b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stateList: []
-  autoMoney: 0
-  plusMoney: 0
-  count: 0
   pftext: {fileID: 1973686956547568424, guid: 04188f463d6d15648bd099ae4ce75819, type: 3}
   anim: {fileID: 0}
   tabSound: tabSound

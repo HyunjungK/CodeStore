@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class cButtonController : MonoBehaviour
 {
+    private cDBManager data;
+
     public cGameManager manager;
 
     public Button[] PokemonBtn, ItemBtn, BackBtn, SoundBtn; //포켓몬, 아이템 구입, 배경, 사운드 사용 버튼
@@ -18,9 +20,9 @@ public class cButtonController : MonoBehaviour
 
     private void Awake()
     {
+        data = FindObjectOfType<cDBManager>();
         theAudio = FindObjectOfType<cAudioManager>();
-        effect.GetComponent<Scrollbar>();
-        
+        effect.GetComponent<Scrollbar>();       
     }
     // Start is called before the first frame update
     void Start()
@@ -29,22 +31,22 @@ public class cButtonController : MonoBehaviour
         option.SetActive(false);
         for (int i = 0; i < manager.SlotPokemon.Length; i++)
         {
-            if (manager.player.stateList[0].money < manager.PokemonList[i].Price)
+            if (data.stateList[0].money < data.PokemonList[i].Price)
                 PokemonBtn[i].GetComponent<Button>().interactable = false;
         }
         for(int i=0; i<manager.SlotItem.Length; i++)
         {
-            if (manager.player.stateList[0].money < manager.ItemList[i].Price)
+            if (data.stateList[0].money < data.ItemList[i].Price)
                 ItemBtn[i].GetComponent<Button>().interactable = false;
         }
         for(int i=0; i<manager.SlotBack.Length; i++)
         {
-            if (manager.player.stateList[0].level < manager.BackList[i].Level)
+            if (data.stateList[0].level < data.BackList[i].Level)
                 BackBtn[i].GetComponent<Button>().interactable = false;
         }
         for(int i=0; i<manager.SlotSound.Length; i++)
         {
-            if (manager.player.stateList[0].level < manager.SoundList[i].Level)
+            if (data.stateList[0].level < data.SoundList[i].Level)
                 SoundBtn[i].GetComponent<Button>().interactable = false;
         }
     }
@@ -67,6 +69,11 @@ public class cButtonController : MonoBehaviour
             option.SetActive(true);
             isActive = false;
         }
+    }
+
+    public void RessetBtn()
+    {
+        data._Reset();
     }
     public void BuyPokemonBtn(int _btnIdx)
     {
@@ -92,28 +99,28 @@ public class cButtonController : MonoBehaviour
     {
         for (int i = 0; i < manager.SlotPokemon.Length; i++)
         {
-            if (manager.player.stateList[0].money < manager.PokemonList[i].Price)
+            if (data.stateList[0].money < data.PokemonList[i].Price)
                 PokemonBtn[i].GetComponent<Button>().interactable = false;
             else
                 PokemonBtn[i].GetComponent<Button>().interactable = true;
         }
         for(int i=0; i<manager.SlotItem.Length; i++)
         {
-            if (manager.player.stateList[0].money < manager.ItemList[i].Price)
+            if (data.stateList[0].money < data.ItemList[i].Price)
                 ItemBtn[i].GetComponent<Button>().interactable = false;
             else
                 ItemBtn[i].GetComponent<Button>().interactable = true;
         }
         for(int i=0; i<manager.SlotBack.Length; i++)
         {
-            if (manager.player.stateList[0].level < manager.BackList[i].Level)
+            if (data.stateList[0].level < data.BackList[i].Level)
                 BackBtn[i].GetComponent<Button>().interactable = false;               
             else
                 BackBtn[i].GetComponent<Button>().interactable = true;
         }
         for(int i=0; i<manager.SlotSound.Length; i++)
         {
-            if (manager.player.stateList[0].level < manager.SoundList[i].Level)
+            if (data.stateList[0].level < data.SoundList[i].Level)
                 SoundBtn[i].GetComponent<Button>().interactable = false;
             else
                 SoundBtn[i].GetComponent<Button>().interactable = true;
