@@ -16,5 +16,4 @@ Stored Code
 
 
 #<p><b>Title 화면  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  메인 화면</b></p>
-<p>![TitlePicture](https://user-images.githubusercontent.com/71911964/105621417-7ea0f280-5e4a-11eb-8dc7-d67c31c77f9c.PNG) &nbsp;
-![MainPicture](https://user-images.githubusercontent.com/71911964/105621475-0b4bb080-5e4b-11eb-8525-f959612e1583.PNG)</p>
+![TitlePicture](https://user-images.githubusercontent.com/71911964/105621417-7ea0f280-5e4a-11eb-8dc7-d67c31c77f9c.PNG) ![MainPicture](https://user-images.githubusercontent.com/71911964/105621475-0b4bb080-5e4b-11eb-8525-f959612e1583.PNG)
