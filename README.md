@@ -13,3 +13,6 @@ Stored Code
 9. cTabText : 플레이어 클릭 시 마다 나오는 플로팅 텍스트에 관한 스크립트 입니다.    
 10. cUIManager : 게임 시작 시 New, Continue, Exit 버튼에 맞는 함수를 실행시켜주는 스크립트입니다.    
 (New : 새로 시작 / Coninue : 저장된 데이터 불러오기 / Exit : 게임 종료)    
+
+
+#  Title 화면
