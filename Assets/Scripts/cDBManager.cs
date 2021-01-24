@@ -65,14 +65,16 @@ public class Sound
 [System.Serializable]
 public class State
 {
-    public int money, level, autoMoney, count, plusMoney;
-    public State(int _money, int _level, int _autoMoney, int _count, int _plusMoney)
+    public int money, level, autoMoney, count, plusMoney, curBackIdx, curSoundIdx;
+    public State(int _money, int _level, int _autoMoney, int _count, int _plusMoney, int _curBackIdx, int _curSoundIdx)
     {
         money = _money;
         level = _level;
         autoMoney = _autoMoney;
         count = _count;
         plusMoney = _plusMoney;
+        curBackIdx = _curBackIdx;
+        curSoundIdx = _curSoundIdx;
     }
 }
 
@@ -97,7 +99,7 @@ public class cDBManager : MonoBehaviour
             if (!File.Exists(Application.persistentDataPath + "/Resources/Pokemons.json"))
             {
                 //캐릭터 재화
-                stateList.Add(new State(0, 1, 1, 0, 50));
+                stateList.Add(new State(0, 1, 1, 0, 50, 0, 0));
                 //포켓몬 DB 추가
                 PokemonList.Add(new Pokemon("Pokemon", "이상해씨", 100));
                 PokemonList.Add(new Pokemon("Pokemon", "파이리", 200));
@@ -253,7 +255,7 @@ public class cDBManager : MonoBehaviour
         SoundList = new List<Sound>();
 
         //재화 추가
-        stateList.Add(new State(0, 1, 1, 0, 50));
+        stateList.Add(new State(0, 1, 1, 0, 50, 0, 0));
         //포켓몬 DB 추가
         PokemonList.Add(new Pokemon("Pokemon", "이상해씨", 100));
         PokemonList.Add(new Pokemon("Pokemon", "파이리", 200));

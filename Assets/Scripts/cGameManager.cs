@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
 public class cGameManager : MonoBehaviour
 {
@@ -24,7 +23,6 @@ public class cGameManager : MonoBehaviour
 
     public cBGMManager bgm;
 
-
     private void Awake()
     {
         data = FindObjectOfType<cDBManager>();
@@ -39,8 +37,8 @@ public class cGameManager : MonoBehaviour
         BackScroll.SetActive(false);
         SoundScroll.SetActive(false);
 
-        backChange.BackNum = 0;
-        bgm.Play(0);
+        backChange.BackNum = data.stateList[0].curBackIdx;
+        bgm.Play(data.stateList[0].curSoundIdx);
         TabClick(curType);
     }
 
@@ -199,11 +197,11 @@ public class cGameManager : MonoBehaviour
                 }
                 else if(curType=="Back"&& data.BackList[_btnIdx]!=null)
                 {
-                    backChange.BackNum = _btnIdx;
-
+                    data.stateList[0].curBackIdx = _btnIdx;
                 }
                 else if(curType=="Sound"&& data.SoundList[_btnIdx]!=null)
                 {
+                    data.stateList[0].curSoundIdx = _btnIdx;
                     bgm.Play(_btnIdx);
                 }
                 break;
@@ -220,10 +218,11 @@ public class cGameManager : MonoBehaviour
                 }
                 else if (curType == "Back" && data.BackList[_btnIdx] != null)
                 {
-                    backChange.BackNum = _btnIdx;
+                    data.stateList[0].curBackIdx = _btnIdx;
                 }
                 else if (curType == "Sound" && data.SoundList[_btnIdx] != null)
                 {
+                    data.stateList[0].curSoundIdx = _btnIdx;
                     bgm.Play(_btnIdx);
                 }
                 break;
@@ -240,10 +239,11 @@ public class cGameManager : MonoBehaviour
                 }
                 else if(curType=="Back" && data.BackList[_btnIdx]!=null)
                 {
-                    backChange.BackNum = _btnIdx;
+                    data.stateList[0].curBackIdx = _btnIdx;
                 }
                 else if(curType=="Sound"&& data.SoundList[_btnIdx]!=null)
                 {
+                    data.stateList[0].curSoundIdx = _btnIdx;
                     bgm.Play(_btnIdx);
                 }   
                 break;
@@ -260,10 +260,11 @@ public class cGameManager : MonoBehaviour
                 }
                 else if(curType=="Back" && data.BackList[_btnIdx]!=null)
                 {
-                    backChange.BackNum = _btnIdx;
+                    data.stateList[0].curBackIdx = _btnIdx;
                 }
                 else if(curType=="Sound"&& data.SoundList[_btnIdx]!=null)
                 {
+                    data.stateList[0].curSoundIdx = _btnIdx;
                     bgm.Play(_btnIdx);
                 }
                 break;
@@ -280,10 +281,11 @@ public class cGameManager : MonoBehaviour
                 }
                 else if (curType == "Back" && data.BackList[_btnIdx] != null)
                 {
-                    backChange.BackNum = _btnIdx;
+                    data.stateList[0].curBackIdx = _btnIdx;
                 }
                 else if (curType == "Sound" && data.SoundList[_btnIdx] != null)
                 {
+                    data.stateList[0].curSoundIdx = _btnIdx;
                     bgm.Play(_btnIdx);
                 }
                 break;
@@ -300,10 +302,11 @@ public class cGameManager : MonoBehaviour
                 }
                 else if (curType == "Back" && data.BackList[_btnIdx] != null)
                 {
-                    backChange.BackNum = _btnIdx;
+                    data.stateList[0].curBackIdx = _btnIdx;
                 }
                 else if (curType == "Sound" && data.SoundList[_btnIdx] != null)
                 {
+                    data.stateList[0].curSoundIdx = _btnIdx;
                     bgm.Play(_btnIdx);
                 }
                 break;
@@ -320,10 +323,11 @@ public class cGameManager : MonoBehaviour
                 }
                 else if (curType == "Back" && data.BackList[_btnIdx] != null)
                 {
-                    backChange.BackNum = _btnIdx;
+                    data.stateList[0].curBackIdx = _btnIdx;
                 }
                 else if (curType == "Sound" && data.SoundList[_btnIdx] != null)
                 {
+                    data.stateList[0].curSoundIdx = _btnIdx;
                     bgm.Play(_btnIdx);
                 }
                 break;
@@ -340,10 +344,11 @@ public class cGameManager : MonoBehaviour
                 }
                 else if (curType == "Back" && data.BackList[_btnIdx] != null)
                 {
-                    backChange.BackNum = _btnIdx;
+                    data.stateList[0].curBackIdx = _btnIdx;
                 }
                 else if (curType == "Sound" && data.SoundList[_btnIdx] != null)
                 {
+                    data.stateList[0].curSoundIdx = _btnIdx;
                     bgm.Play(_btnIdx);
                 }
                 break;
@@ -360,10 +365,11 @@ public class cGameManager : MonoBehaviour
                 }
                 else if (curType == "Back" && data.BackList[_btnIdx] != null)
                 {
-                    backChange.BackNum = _btnIdx;
+                    data.stateList[0].curBackIdx = _btnIdx;
                 }
                 else if (curType == "Sound" && data.SoundList[_btnIdx] != null)
                 {
+                    data.stateList[0].curSoundIdx = _btnIdx;
                     bgm.Play(_btnIdx);
                 }
                 break;
@@ -380,10 +386,11 @@ public class cGameManager : MonoBehaviour
                 }
                 else if (curType == "Back" && data.BackList[_btnIdx] != null)
                 {
-                    backChange.BackNum = _btnIdx;
+                    data.stateList[0].curBackIdx = _btnIdx;
                 }
                 else if (curType == "Sound" && data.SoundList[_btnIdx] != null)
                 {
+                    data.stateList[0].curSoundIdx = _btnIdx;
                     bgm.Play(_btnIdx);
                 }
                 break;
@@ -400,10 +407,11 @@ public class cGameManager : MonoBehaviour
                 }
                 else if (curType == "Back" && data.BackList[_btnIdx] != null)
                 {
-                    backChange.BackNum = _btnIdx;
+                    data.stateList[0].curBackIdx = _btnIdx;
                 }
                 else if (curType == "Sound" && data.SoundList[_btnIdx] != null)
                 {
+                    data.stateList[0].curSoundIdx = _btnIdx;
                     bgm.Play(_btnIdx);
                 }
                 break;
@@ -420,10 +428,11 @@ public class cGameManager : MonoBehaviour
                 }
                 else if (curType == "Back" && data.BackList[_btnIdx] != null)
                 {
-                    backChange.BackNum = _btnIdx;
+                    data.stateList[0].curBackIdx = _btnIdx;
                 }
                 else if (curType == "Sound" && data.SoundList[_btnIdx] != null)
                 {
+                    data.stateList[0].curSoundIdx = _btnIdx;
                     bgm.Play(_btnIdx);
                 }
                 break;
@@ -440,10 +449,11 @@ public class cGameManager : MonoBehaviour
                 }
                 else if (curType == "Back" && data.BackList[_btnIdx] != null)
                 {
-                    backChange.BackNum = _btnIdx;
+                    data.stateList[0].curBackIdx = _btnIdx;
                 }
                 else if (curType == "Sound" && data.SoundList[_btnIdx] != null)
                 {
+                    data.stateList[0].curSoundIdx = _btnIdx;
                     bgm.Play(_btnIdx);
                 }
                 break;
@@ -460,10 +470,11 @@ public class cGameManager : MonoBehaviour
                 }
                 else if (curType == "Back" && data.BackList[_btnIdx] != null)
                 {
-                    backChange.BackNum = _btnIdx;
+                    data.stateList[0].curBackIdx = _btnIdx;
                 }
                 else if (curType == "Sound" && data.SoundList[_btnIdx] != null)
                 {
+                    data.stateList[0].curSoundIdx = _btnIdx;
                     bgm.Play(_btnIdx);
                 }
                 break;
@@ -480,10 +491,11 @@ public class cGameManager : MonoBehaviour
                 }
                 else if (curType == "Back" && data.BackList[_btnIdx] != null)
                 {
-                    backChange.BackNum = _btnIdx;
+                    data.stateList[0].curBackIdx = _btnIdx;
                 }
                 else if (curType == "Sound" && data.SoundList[_btnIdx] != null)
                 {
+                    data.stateList[0].curSoundIdx = _btnIdx;
                     bgm.Play(_btnIdx);
                 }
                 break;
@@ -500,10 +512,11 @@ public class cGameManager : MonoBehaviour
                 }
                 else if (curType == "Back" && data.BackList[_btnIdx] != null)
                 {
-                    backChange.BackNum = _btnIdx;
+                    data.stateList[0].curBackIdx = _btnIdx;
                 }
                 else if (curType == "Sound" && data.SoundList[_btnIdx] != null)
                 {
+                    data.stateList[0].curSoundIdx = _btnIdx;
                     bgm.Play(_btnIdx);
                 }
                 break;
@@ -520,10 +533,11 @@ public class cGameManager : MonoBehaviour
                 }
                 else if (curType == "Back" && data.BackList[_btnIdx] != null)
                 {
-                    backChange.BackNum = _btnIdx;
+                    data.stateList[0].curBackIdx = _btnIdx;
                 }
                 else if (curType == "Sound" && data.SoundList[_btnIdx] != null)
                 {
+                    data.stateList[0].curSoundIdx = _btnIdx;
                     bgm.Play(_btnIdx);
                 }
                 break;
@@ -540,10 +554,11 @@ public class cGameManager : MonoBehaviour
                 }
                 else if (curType == "Back" && data.BackList[_btnIdx] != null)
                 {
-                    backChange.BackNum = _btnIdx;
+                    data.stateList[0].curBackIdx = _btnIdx;
                 }
                 else if (curType == "Sound" && data.SoundList[_btnIdx] != null)
                 {
+                    data.stateList[0].curSoundIdx = _btnIdx;
                     bgm.Play(_btnIdx);
                 }
                 break;
@@ -560,10 +575,11 @@ public class cGameManager : MonoBehaviour
                 }
                 else if (curType == "Back" && data.BackList[_btnIdx] != null)
                 {
-                    backChange.BackNum = _btnIdx;
+                    data.stateList[0].curBackIdx = _btnIdx;
                 }
                 else if (curType == "Sound" && data.SoundList[_btnIdx] != null)
                 {
+                    data.stateList[0].curSoundIdx = _btnIdx;
                     bgm.Play(_btnIdx);
                 }
                 break;
@@ -580,10 +596,11 @@ public class cGameManager : MonoBehaviour
                 }
                 else if (curType == "Back" && data.BackList[_btnIdx] != null)
                 {
-                    backChange.BackNum = _btnIdx;
+                    data.stateList[0].curBackIdx = _btnIdx;
                 }
                 else if (curType == "Sound" && data.SoundList[_btnIdx] != null)
                 {
+                    data.stateList[0].curSoundIdx = _btnIdx;
                     bgm.Play(_btnIdx);
                 }
                 break;
@@ -600,10 +617,11 @@ public class cGameManager : MonoBehaviour
                 }
                 else if (curType == "Back" && data.BackList[_btnIdx] != null)
                 {
-                    backChange.BackNum = _btnIdx;
+                    data.stateList[0].curBackIdx = _btnIdx;
                 }
                 else if (curType == "Sound" && data.SoundList[_btnIdx] != null)
                 {
+                    data.stateList[0].curSoundIdx = _btnIdx;
                     bgm.Play(_btnIdx);
                 }
                 break;
@@ -620,10 +638,11 @@ public class cGameManager : MonoBehaviour
                 }
                 else if (curType == "Back" && data.BackList[_btnIdx] != null)
                 {
-                    backChange.BackNum = _btnIdx;
+                    data.stateList[0].curBackIdx = _btnIdx;
                 }
                 else if (curType == "Sound" && data.SoundList[_btnIdx] != null)
                 {
+                    data.stateList[0].curSoundIdx = _btnIdx;
                     bgm.Play(_btnIdx);
                 }
                 break;
@@ -640,10 +659,11 @@ public class cGameManager : MonoBehaviour
                 }
                 else if (curType == "Back" && data.BackList[_btnIdx] != null)
                 {
-                    backChange.BackNum = _btnIdx;
+                    data.stateList[0].curBackIdx = _btnIdx;
                 }
                 else if (curType == "Sound" && data.SoundList[_btnIdx] != null)
                 {
+                    data.stateList[0].curSoundIdx = _btnIdx;
                     bgm.Play(_btnIdx);
                 }
                 break;
@@ -660,10 +680,11 @@ public class cGameManager : MonoBehaviour
                 }
                 else if (curType == "Back" && data.BackList[_btnIdx] != null)
                 {
-                    backChange.BackNum = _btnIdx;
+                    data.stateList[0].curBackIdx = _btnIdx;
                 }
                 else if (curType == "Sound" && data.SoundList[_btnIdx] != null)
                 {
+                    data.stateList[0].curSoundIdx = _btnIdx;
                     bgm.Play(_btnIdx);
                 }
                 break;
@@ -680,10 +701,11 @@ public class cGameManager : MonoBehaviour
                 }
                 else if (curType == "Back" && data.BackList[_btnIdx] != null)
                 {
-                    backChange.BackNum = _btnIdx;
+                    data.stateList[0].curBackIdx = _btnIdx;
                 }
                 else if (curType == "Sound" && data.SoundList[_btnIdx] != null)
                 {
+                    data.stateList[0].curSoundIdx = _btnIdx;
                     bgm.Play(_btnIdx);
                 }
                 break;
@@ -700,10 +722,11 @@ public class cGameManager : MonoBehaviour
                 }
                 else if (curType == "Back" && data.BackList[_btnIdx] != null)
                 {
-                    backChange.BackNum = _btnIdx;
+                    data.stateList[0].curBackIdx = _btnIdx;
                 }
                 else if (curType == "Sound" && data.SoundList[_btnIdx] != null)
                 {
+                    data.stateList[0].curSoundIdx = _btnIdx;
                     bgm.Play(_btnIdx);
                 }
                 break;
@@ -720,10 +743,11 @@ public class cGameManager : MonoBehaviour
                 }
                 else if (curType == "Back" && data.BackList[_btnIdx] != null)
                 {
-                    backChange.BackNum = _btnIdx;
+                    data.stateList[0].curBackIdx = _btnIdx;
                 }
                 else if (curType == "Sound" && data.SoundList[_btnIdx] != null)
                 {
+                    data.stateList[0].curSoundIdx = _btnIdx;
                     bgm.Play(_btnIdx);
                 }
                 break;
@@ -740,10 +764,11 @@ public class cGameManager : MonoBehaviour
                 }
                 else if (curType == "Back" && data.BackList[_btnIdx] != null)
                 {
-                    backChange.BackNum = _btnIdx;
+                    data.stateList[0].curBackIdx = _btnIdx;
                 }
                 else if (curType == "Sound" && data.SoundList[_btnIdx] != null)
                 {
+                    data.stateList[0].curSoundIdx = _btnIdx;
                     bgm.Play(_btnIdx);
                 }
                 break;
@@ -760,10 +785,11 @@ public class cGameManager : MonoBehaviour
                 }
                 else if (curType == "Back" && data.BackList[_btnIdx] != null)
                 {
-                    backChange.BackNum = _btnIdx;
+                    data.stateList[0].curBackIdx = _btnIdx;
                 }
                 else if (curType == "Sound" && data.SoundList[_btnIdx] != null)
                 {
+                    data.stateList[0].curSoundIdx = _btnIdx;
                     bgm.Play(_btnIdx);
                 }
                 break;
@@ -780,10 +806,11 @@ public class cGameManager : MonoBehaviour
                 }
                 else if (curType == "Back" && data.BackList[_btnIdx] != null)
                 {
-                    backChange.BackNum = _btnIdx;
+                    data.stateList[0].curBackIdx = _btnIdx;
                 }
                 else if (curType == "Sound" && data.SoundList[_btnIdx] != null)
                 {
+                    data.stateList[0].curSoundIdx = _btnIdx;
                     bgm.Play(_btnIdx);
                 }
                 break;
@@ -806,6 +833,7 @@ public class cGameManager : MonoBehaviour
 
     private void Update()
     {
+        backChange.BackNum = data.stateList[0].curBackIdx;
         for (int i = 0; i < SlotPokemon.Length; i++)
             PokemonPrice[i].text = i < data.PokemonList.Count ? data.PokemonList[i].Price.ToString() : "";
         for (int i = 0; i < SlotItem.Length; i++)
@@ -825,17 +853,7 @@ public class cGameManager : MonoBehaviour
                 SoundBtnText[i].text = "사용 중";
             else
                 SoundBtnText[i].text = "사용";
-        }
-        if (Input.GetKey(KeyCode.Escape))
-        {
-            data.Save();
-            SceneManager.LoadScene(0);
-        }
-        if (Input.GetKey(KeyCode.Home))
-        {
-            data.Save();
-        }
-            
+        }         
 
     }
 }
