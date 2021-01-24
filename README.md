@@ -19,4 +19,4 @@ Stored Code
 <image src="https://user-images.githubusercontent.com/71911964/105621417-7ea0f280-5e4a-11eb-8dc7-d67c31c77f9c.PNG" width="200" height="350"> <image src="https://user-images.githubusercontent.com/71911964/105621475-0b4bb080-5e4b-11eb-8525-f959612e1583.PNG" width="200" height="350">
   
   # 유튜브 
-  [![PortFolio영상](https://youtu.be/D30rSIzjceY/1.jpg)](https://youtu.be/D30rSIzjceY?t=0s)
+  [![PortFolio영상](https://image.youtu.be/vi/D30rSIzjceY/1.jpg)](https://youtu.be/D30rSIzjceY?t=0s)
