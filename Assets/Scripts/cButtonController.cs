@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class cButtonController : MonoBehaviour
 {
@@ -73,7 +74,13 @@ public class cButtonController : MonoBehaviour
 
     public void RessetBtn()
     {
-        data._Reset();
+        //  data._Reset();
+        SceneManager.LoadScene(0);
+
+    }
+    public void SaveBtn()
+    {
+        data.Save();
     }
     public void BuyPokemonBtn(int _btnIdx)
     {

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class cGameManager : MonoBehaviour
 {
@@ -18,8 +19,6 @@ public class cGameManager : MonoBehaviour
 
     public string buyBtnSound;
     private cAudioManager theAudio;
-
-  //  public cPlayerClicker player;
 
     public cBackChange backChange;
 
@@ -827,6 +826,16 @@ public class cGameManager : MonoBehaviour
             else
                 SoundBtnText[i].text = "사용";
         }
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            data.Save();
+            SceneManager.LoadScene(0);
+        }
+        if (Input.GetKey(KeyCode.Home))
+        {
+            data.Save();
+        }
+            
 
     }
 }
