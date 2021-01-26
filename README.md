@@ -18,5 +18,5 @@ Stored Code
 <p><b>Title 화면&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>메인 화면</p>
 <image src="https://user-images.githubusercontent.com/71911964/105621417-7ea0f280-5e4a-11eb-8dc7-d67c31c77f9c.PNG" width="200" height="350"> <image src="https://user-images.githubusercontent.com/71911964/105621475-0b4bb080-5e4b-11eb-8525-f959612e1583.PNG" width="200" height="350">
   
-  # 플레이  
-  [![PortFolio영상](https://img.youtube.com/vi/D30rSIzjceY/1.jpg)](https://youtu.be/D30rSIzjceY?t=0s)
+  # 플레이_자막 
+  [![PortFolio영상](https://img.youtube.com/vi/Mzggf7efl3o/1.jpg)](https://youtu.be/Mzggf7efl3o?t=0s)
